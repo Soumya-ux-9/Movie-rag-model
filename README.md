@@ -8,7 +8,7 @@ that answers questions about movies using an **open-source LLM (FLAN-T5 Small)**
 ## Project Overview
 
 Large Language Models may hallucinate when answering factual questions.
-To address this, this project uses a **RAG pipeline**, where relevant movie plot data
+To address this, this project uses a RAG pipeline, where relevant movie plot data
 is retrieved from a vector database and provided as context to the LLM for accurate answer generation.
 
 This implementation works **completely offline** once the model is downloaded.
@@ -40,11 +40,11 @@ This implementation works **completely offline** once the model is downloaded.
 
 ## 🔹 Folder Structure
 movie_rag/
-── app.py
-── movies.txt
-── chroma_db/
+-app.py
+- movies.txt
+-chroma_db/
 
 ## On terminal 
-|──  cd movie_rag:
-|── python app.py
+─  cd movie_rag:
+─ python app.py
 
