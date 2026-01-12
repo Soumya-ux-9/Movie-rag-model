@@ -39,12 +39,13 @@ This implementation works **completely offline** once the model is downloaded.
 ---
 
 ## 🔹 Folder Structure
-movie_rag/
--app.py
-- movies.txt
--chroma_db/
+movie_rag:  
+- app.py  
+- ChromaDB (Vector Database)   
+- movies.txt  
 
 ## On terminal 
-─  cd movie_rag:
-─ python app.py
+- cd movie_rag:
+- python app.py 
+
 
