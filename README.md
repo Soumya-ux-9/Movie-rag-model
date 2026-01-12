@@ -40,9 +40,9 @@ This implementation works **completely offline** once the model is downloaded.
 
 ## 🔹 Folder Structure
 movie_rag/
-│── app.py
-│ └── movies.txt
-│── chroma_db/
+── app.py
+── movies.txt
+── chroma_db/
 
 ## On terminal 
 |──  cd movie_rag:
